@@ -1,0 +1,158 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  width: 100%;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  width: 100%;
+  display: flex;
+  background-color: rgb(227, 149, 47);
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+ 
+}
+div .logo{
+  position: relative;  
+  width:60%;
+  margin-right: 80px;
+  margin-left: 30px;
+  margin-top: 15px;
+
+}
+
+.middle-header .logo {
+  display: flex;
+  padding-left: 30px;
+  width: 70%;
+  position: relative;
+  float:left;
+  margin: 3px;
+  margin-left:30px;
+ 
+}
+.site-title{
+  color:rgba(21, 19, 19, 0.849);
+  transition: 1s;
+
+}
+
+.site-title:hover{
+  color:rgba(240, 49, 35, 0.849);
+}
+
+ul{
+  display:flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  text-align: center;
+  align-items: center;
+
+}
+ul a{
+  font-size: 20px;
+  transition: 1s;
+  padding-left: 20px;
+}
+ul a:hover{
+  background-color: azure;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 2px;
+  color:rgb(236, 87, 37)
+
+}
+ul li{
+  list-style: none;
+  display: flex;
+  padding-left: 50px;
+}
+ul li a{
+  display: ;
+  font-size: 16px;
+  text-decoration: none;
+  color:black;
+  
+}
+div .toggle-nav{
+  position: relative;
+ 
+  justify-content: center;
+  text-align: center;
+  width:10%;
+  float: right;
+  margin-top: 30px;
+}
+ 
+div .search-box{
+  position: relative;
+  border-left: 1px solid black;  
+  width:60px;
+  text-align: end;
+  float: right;
+  margin-right: 80px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.middle-header{
+  background-color: 3px solid rgb(21, 48, 223);
+  
+}
+.middle-header{
+  width: 100%;
+}
+.site-title{
+  margin-top: 20px;
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 39.81px;
+
+}
+@media (max-width:1200px){
+  div .toggle-nav{
+    display:none;
+     
+  }
+}
+@media screen and (min-width:400px)and (max-width:786){
+  div .toggle-nav{
+    display:block;
+    position: relative;
+     
+  }
+  p .site-title{
+    line-break: auto;
+    position: relative;
+    font-size:33.18px;
+  }
+  div .toggle-nav{
+    display:flex;
+    position: relative;
+    
+     
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
